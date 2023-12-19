@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+img[alt='image tiger'] {
+    margin-left: 140px;
+    border: 10px solid #384f38;
+    border-radius: 50%;
+    overflow: hidden;
+
+
+}
+
+img[alt='image tiger']+span {
+    color: #291d52;
+    font-size: 3rem;
+    font-family: cursive;
+    vertical-align: 40px;
+    margin-left: 15px;
+   
+}
+#span{
+    text-shadow: 5px 4px 8px green;
+}
+  nav{
+    width: 100%;
+     position: relative;
+    position: sticky;
+    top: 0; 
+    
+}
+
+
+ul{
+    list-style: none;
+    width: 100%;
+    background-color: #13451a;
+    height: 55px;
+    text-align: center; 
+    
+    
+
+}
+li{
+    display: inline-block;
+    width: 10%;
+    height: 100%;
+    
+}
+a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+}
+a:hover{
+    background-color: rgb(184, 133, 3);
+    font-family: cursive;
+    font-size: 21px;
+    width: fit-content;
+}
+section{
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    clear: both;
+    
+}
+h1 , p {
+    margin: 30px;
+}
+h1{
+    font-size: 40px;
+    font-family: cursive;
+    color: #d78707;
+
+}
+img[alt="image elephnt"]{
+    border: 10px solid #100f0f;
+    float: left;
+    width: 33%;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+p{
+    color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+   
+}
+#hom p{
+    width: 60%;
+    float:left ;
+}
+h3{
+    margin-left: 30px;
+   
+}
+b{
+    color: black;
+}
+img[alt="Garjiya"]{
+    width:100%;
+}
+:target h1{
+    padding-top: 100px;
+}
+
+:target p {
+    background-color: #bceab3;
+}
+
+
